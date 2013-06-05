@@ -283,6 +283,12 @@
 		CE4C7E23175EEB5900CA2803 /* AppDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4C7E22175EEB5900CA2803 /* AppDelegate.cpp */; };
 		CE4C7E26175EEB5900CA2803 /* HelloWorldScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE4C7E25175EEB5900CA2803 /* HelloWorldScene.cpp */; };
 		CE4C7E28175EEB5A00CA2803 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4C7E27175EEB5900CA2803 /* blocks.png */; };
+		CE4C7E3A175F0E1C00CA2803 /* qua-bong.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE4C7E39175F0E1C00CA2803 /* qua-bong.jpg */; };
+		CED3E5BF175F33AA00D8CC42 /* maybay.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CED3E5BE175F33AA00D8CC42 /* maybay.jpeg */; };
+		CED3E5C1175F367300D8CC42 /* aoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED3E5C0175F367300D8CC42 /* aoe.jpg */; };
+		CED3E5C3175F379700D8CC42 /* sung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED3E5C2175F379700D8CC42 /* sung.jpg */; };
+		CED3E5C7175F39D400D8CC42 /* icon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CED3E5C6175F39D400D8CC42 /* icon.jpeg */; };
+		CED3E5C9175F3DAA00D8CC42 /* bom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED3E5C8175F3DAA00D8CC42 /* bom.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -882,6 +888,12 @@
 		CE4C7E24175EEB5900CA2803 /* HelloWorldScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HelloWorldScene.h; path = Classes/HelloWorldScene.h; sourceTree = "<group>"; };
 		CE4C7E25175EEB5900CA2803 /* HelloWorldScene.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = HelloWorldScene.cpp; path = Classes/HelloWorldScene.cpp; sourceTree = "<group>"; };
 		CE4C7E27175EEB5900CA2803 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		CE4C7E39175F0E1C00CA2803 /* qua-bong.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "qua-bong.jpg"; path = "../../qua-bong.jpg"; sourceTree = "<group>"; };
+		CED3E5BE175F33AA00D8CC42 /* maybay.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maybay.jpeg; path = ../../maybay.jpeg; sourceTree = "<group>"; };
+		CED3E5C0175F367300D8CC42 /* aoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aoe.jpg; path = ../../aoe.jpg; sourceTree = "<group>"; };
+		CED3E5C2175F379700D8CC42 /* sung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sung.jpg; path = ../../sung.jpg; sourceTree = "<group>"; };
+		CED3E5C6175F39D400D8CC42 /* icon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = icon.jpeg; path = ../../icon.jpeg; sourceTree = "<group>"; };
+		CED3E5C8175F3DAA00D8CC42 /* bom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bom.jpg; path = ../../bom.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -952,6 +964,12 @@
 		CE4C7A8D175EEB2700CA2803 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CED3E5C8175F3DAA00D8CC42 /* bom.jpg */,
+				CED3E5C6175F39D400D8CC42 /* icon.jpeg */,
+				CED3E5C2175F379700D8CC42 /* sung.jpg */,
+				CED3E5C0175F367300D8CC42 /* aoe.jpg */,
+				CED3E5BE175F33AA00D8CC42 /* maybay.jpeg */,
+				CE4C7E39175F0E1C00CA2803 /* qua-bong.jpg */,
 				CE4C7A8E175EEB2700CA2803 /* CloseNormal.png */,
 				CE4C7A90175EEB2700CA2803 /* CloseSelected.png */,
 				CE4C7A92175EEB2700CA2803 /* Default.png */,
@@ -2147,6 +2165,12 @@
 				CE4C7B3F175EEB3000CA2803 /* ChangeLog in Resources */,
 				CE4C7CA9175EEB4700CA2803 /* project.pbxproj in Resources */,
 				CE4C7E28175EEB5A00CA2803 /* blocks.png in Resources */,
+				CE4C7E3A175F0E1C00CA2803 /* qua-bong.jpg in Resources */,
+				CED3E5BF175F33AA00D8CC42 /* maybay.jpeg in Resources */,
+				CED3E5C1175F367300D8CC42 /* aoe.jpg in Resources */,
+				CED3E5C3175F379700D8CC42 /* sung.jpg in Resources */,
+				CED3E5C7175F39D400D8CC42 /* icon.jpeg in Resources */,
+				CED3E5C9175F3DAA00D8CC42 /* bom.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2550,6 +2574,7 @@
 				CE4C7E2D175EEB5A00CA2803 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
