@@ -10,21 +10,22 @@ class HelloWorld : public cocos2d::CCLayer {
 public:
     ~HelloWorld();
     HelloWorld();
-    
     // returns a Scene that contains the HelloWorld as the only child
     static cocos2d::CCScene* scene();
-    
-   // void initPhysics();
+    // void initPhysics();
     // adds a new sprite at a given coordinate
-   // void addNewSpriteAtPosition(cocos2d::CCPoint p);
+    // void addNewSpriteAtPosition(cocos2d::CCPoint p);
     void remove(cocos2d::CCNode * node);
     void runLine(CCPoint location);
     virtual void ccTouchesEnded(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
+    //virtual void ccTouches(cocos2d::CCSet* touches, cocos2d::CCEvent* event);
     void update(float dt);
-    void run();
-    void impact(CCSprite *sp);
+    void setValue(CCLabelTTF *lb, int i);
+    bool impact(CCSprite *sp, CCSprite *ft);
     void boomDown(CCSprite *boom);
     void fire(CCSprite *boom);
+    void checkLocation(CCPoint location, CCPoint locationEnd);
+
 private:
     b2World* world;
     cocos2d::CCTexture2D* m_pSpriteTexture; // weak ref
@@ -34,7 +35,12 @@ private:
     cocos2d::CCSprite *duck;
     CCSprite *dan;
     int i = 0;
-    CCArray *array;
+    CCArray *array,*arrayBoom;
+    bool check = false;
+    long point=0;
+    int hearth =100;
+    CCLabelTTF *points;
+    CCLabelTTF *hearths;
 };
 
 #endif // __HELLO_WORLD_H__

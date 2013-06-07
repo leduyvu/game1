@@ -289,6 +289,9 @@
 		CE7A3A231760481D00C23BBE /* Player.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A3A201760481D00C23BBE /* Player.png */; };
 		CE7A3A241760481D00C23BBE /* Projectile.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A3A211760481D00C23BBE /* Projectile.png */; };
 		CE7A3A251760481D00C23BBE /* Target.png in Resources */ = {isa = PBXBuildFile; fileRef = CE7A3A221760481D00C23BBE /* Target.png */; };
+		CE7C759617617AEB00130339 /* nen2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE7C759417617AEB00130339 /* nen2.jpeg */; };
+		CE7C759717617AEB00130339 /* nentrang.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE7C759517617AEB00130339 /* nentrang.jpeg */; };
+		CE7C75991761DC0100130339 /* maybay2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CE7C75981761DC0100130339 /* maybay2.jpeg */; };
 		CED3E5BF175F33AA00D8CC42 /* maybay.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = CED3E5BE175F33AA00D8CC42 /* maybay.jpeg */; };
 		CED3E5C1175F367300D8CC42 /* aoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED3E5C0175F367300D8CC42 /* aoe.jpg */; };
 		CED3E5C3175F379700D8CC42 /* sung.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CED3E5C2175F379700D8CC42 /* sung.jpg */; };
@@ -899,6 +902,9 @@
 		CE7A3A201760481D00C23BBE /* Player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player.png; path = ../../Player.png; sourceTree = "<group>"; };
 		CE7A3A211760481D00C23BBE /* Projectile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Projectile.png; path = ../../Projectile.png; sourceTree = "<group>"; };
 		CE7A3A221760481D00C23BBE /* Target.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Target.png; path = ../../Target.png; sourceTree = "<group>"; };
+		CE7C759417617AEB00130339 /* nen2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nen2.jpeg; path = ../../nen2.jpeg; sourceTree = "<group>"; };
+		CE7C759517617AEB00130339 /* nentrang.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = nentrang.jpeg; path = ../../nentrang.jpeg; sourceTree = "<group>"; };
+		CE7C75981761DC0100130339 /* maybay2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maybay2.jpeg; path = ../../maybay2.jpeg; sourceTree = "<group>"; };
 		CED3E5BE175F33AA00D8CC42 /* maybay.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = maybay.jpeg; path = ../../maybay.jpeg; sourceTree = "<group>"; };
 		CED3E5C0175F367300D8CC42 /* aoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = aoe.jpg; path = ../../aoe.jpg; sourceTree = "<group>"; };
 		CED3E5C2175F379700D8CC42 /* sung.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = sung.jpg; path = ../../sung.jpg; sourceTree = "<group>"; };
@@ -974,6 +980,9 @@
 		CE4C7A8D175EEB2700CA2803 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				CE7C75981761DC0100130339 /* maybay2.jpeg */,
+				CE7C759417617AEB00130339 /* nen2.jpeg */,
+				CE7C759517617AEB00130339 /* nentrang.jpeg */,
 				CE773B9B17609582006AB9D5 /* SmallSun.plist */,
 				CE773B99176070E3006AB9D5 /* canh.jpeg */,
 				CE7A3A201760481D00C23BBE /* Player.png */,
@@ -2191,6 +2200,9 @@
 				CE7A3A251760481D00C23BBE /* Target.png in Resources */,
 				CE773B9A176070E3006AB9D5 /* canh.jpeg in Resources */,
 				CE773B9C17609582006AB9D5 /* SmallSun.plist in Resources */,
+				CE7C759617617AEB00130339 /* nen2.jpeg in Resources */,
+				CE7C759717617AEB00130339 /* nentrang.jpeg in Resources */,
+				CE7C75991761DC0100130339 /* maybay2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
