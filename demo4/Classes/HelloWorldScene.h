@@ -25,7 +25,9 @@ public:
     void boomDown(CCSprite *boom);
     void fire(CCSprite *boom);
     void checkLocation(CCPoint location, CCPoint locationEnd);
-
+    void menu();
+    int getStep();
+    
 private:
     b2World* world;
     cocos2d::CCTexture2D* m_pSpriteTexture; // weak ref
@@ -35,12 +37,13 @@ private:
     cocos2d::CCSprite *duck;
     CCSprite *dan;
     int i = 0;
-    CCArray *array,*arrayBoom;
+    CCArray *array,*arrayBoom,*plane;
     bool check = false;
-    long point=0;
+    long point=100;
     int hearth =100;
     CCLabelTTF *points;
     CCLabelTTF *hearths;
+    int step;
 };
 
 #endif // __HELLO_WORLD_H__
